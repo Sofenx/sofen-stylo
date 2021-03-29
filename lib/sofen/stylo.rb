@@ -5,6 +5,7 @@ require_relative "stylo/version"
 module Sofen
   module Stylo
     class Error < StandardError; end
-    # Your code goes here...
+
+    class Engine < ::Rails::Engine; end
   end
 end
